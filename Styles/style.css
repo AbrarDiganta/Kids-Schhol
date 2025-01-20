@@ -1,3 +1,95 @@
 h1 {
-  background-color: aqua;
+  font-family: "Quicksand", serif;
+}
+
+/* navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-name {
+  font-family: "Quicksand", serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  margin-right: 30px;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: "Quicksand", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-col-1 {
+  color: #fea301;
+}
+
+.nav-col-2 {
+  color: #01acfd;
+}
+
+.nav-col-3 {
+  color: #05d4df;
+}
+
+.nav-col-4 {
+  color: #5d58ef;
+}
+
+.nav-btn {
+  background-color: #fea301;
+  color: white;
+  font-family: "Quicksand", serif;
+  font-size: 20px;
+  font-weight: 600;
+  border-style: none;
+  padding: 2px 60px;
+  border-radius: 12px;
+  width: 197px;
+  height: 50px;
+}
+
+.icon-show {
+  display: none;
+  /* margin-right: 100px; */
+}
+
+.hr-set {
+  height: 1px;
+  border: none;
+  background-color: #fea301;
+  display: none;
+}
+
+/* responsive styles */
+
+@media screen and (max-width: 576px) {
+  .brand-name,
+  .nav-item,
+  .nav-btn {
+    display: none;
+  }
+  .icon-show,
+  .hr-set {
+    display: block;
+  }
 }
