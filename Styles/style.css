@@ -129,6 +129,99 @@ h1 {
   width: 100%;
 }
 
+/* standard section styles */
+.standard-section {
+  background-image: url(../assets/bg.png);
+  margin-top: 80px;
+}
+.standard-title {
+  text-align: center;
+  font-family: "Quicksand", serif;
+  font-size: 46px;
+  font-weight: bold;
+}
+.standard-container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-item {
+  height: 420px;
+  width: 370px;
+  border-radius: 18px;
+}
+.linear-1 {
+  background-image: linear-gradient(#def5ff, white);
+}
+.linear-2 {
+  background-image: linear-gradient(#fff4dc, white);
+}
+.linear-3 {
+  background-image: linear-gradient(#f2e8ff, white);
+}
+.item-title {
+  font-family: "Quicksand", serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.title-description {
+  font-family: "Quicksand", serif;
+  font-size: 15px;
+  color: #808080;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.btn-text-1 {
+  text-align: center;
+  color: #64c8ff;
+  margin-top: 50px;
+  font-family: "Quicksand", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn-text-2 {
+  text-align: center;
+  color: #f0aa00;
+  margin-top: 50px;
+  font-family: "Quicksand", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn-text-3 {
+  text-align: center;
+  color: #8700ff;
+  margin-top: 50px;
+  font-family: "Quicksand", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.font-size {
+  font-size: 24px;
+  color: white;
+  background-color: #fea301;
+  height: 20px;
+  width: 40px;
+  text-align: center;
+  padding: 22px 12px;
+  border-radius: 100px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 80px;
+}
 /* responsive styles */
 
 @media screen and (max-width: 576px) {
@@ -163,5 +256,15 @@ h1 {
   }
   .banner-description {
     margin-top: 18px;
+  }
+  .standard-section {
+    margin-top: 220px;
+  }
+  .standard-container {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .icons {
+    display: none;
   }
 }
