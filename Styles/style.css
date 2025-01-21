@@ -7,6 +7,8 @@ h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 
 .nav-container {
@@ -80,6 +82,53 @@ h1 {
   display: none;
 }
 
+/* banner styles */
+
+.spn-1 {
+  color: #fea301;
+  font-family: "Quicksand", serif;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.spn-3 {
+  color: #01acfd;
+  font-family: "Quicksand", serif;
+  font-size: 56px;
+  font-weight: bold;
+}
+.banner-title {
+  font-family: "Quicksand", serif;
+  font-size: 56px;
+  font-weight: bold;
+}
+.banner-description {
+  font-family: "Quicksand", serif;
+  font-size: 20px;
+  margin-top: -30px;
+}
+.btn-enroll {
+  background-color: black;
+  color: white;
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+  font-family: "Quicksand", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.banner-section {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.banner-img {
+  width: 100%;
+}
+
 /* responsive styles */
 
 @media screen and (max-width: 576px) {
@@ -91,5 +140,28 @@ h1 {
   .icon-show,
   .hr-set {
     display: block;
+  }
+  .navbar {
+    margin-left: 5px;
+  }
+  .icon-show {
+    margin-left: 230px;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+  .banner-container {
+    height: 252px;
+    width: 357px;
+    text-align: center;
+    margin-top: -130px;
+  }
+  .banner-title,
+  .spn-1,
+  .spn-3 {
+    font-size: 32px;
+  }
+  .banner-description {
+    margin-top: 18px;
   }
 }
