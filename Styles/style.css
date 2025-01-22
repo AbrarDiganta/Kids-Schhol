@@ -154,12 +154,15 @@ h1 {
 }
 .linear-1 {
   background-image: linear-gradient(#def5ff, white);
+  box-shadow: 5px 5px #def5ff;
 }
 .linear-2 {
   background-image: linear-gradient(#fff4dc, white);
+  box-shadow: 5px 5px #fff4dc;
 }
 .linear-3 {
   background-image: linear-gradient(#f2e8ff, white);
+  box-shadow: 5px 5px #f2e8ff;
 }
 .item-title {
   font-family: "Quicksand", serif;
@@ -188,6 +191,9 @@ h1 {
   font-family: "Quicksand", serif;
   font-size: 15px;
   font-weight: bold;
+}
+.btn-text-a {
+  text-decoration: none;
 }
 .btn-text-2 {
   text-align: center;
@@ -221,6 +227,9 @@ h1 {
   align-items: center;
   gap: 20px;
   margin-top: 80px;
+}
+.font-size:hover {
+  background-color: #666666;
 }
 
 /* our section styles */
@@ -328,9 +337,90 @@ h1 {
   background-color: black;
   color: white;
   padding: 10px 60px;
+  margin-left: -70px;
   border-radius: 16px;
 }
-/* responsive styles */
+
+/* footer-style */
+
+.footer-section {
+  height: 519px;
+  background-color: #01acfd;
+}
+.left-side-content {
+  display: flex;
+  gap: 3px;
+  height: 81px;
+  width: 299px;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-description {
+  width: 399px;
+  font-family: "Quicksand", serif;
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.left-side-title {
+  font-family: "Quicksand", serif;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.menu-list {
+  list-style: none;
+  margin-left: 40px;
+  font-family: "Quicksand", serif;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.menu-item {
+  font-family: "Quicksand", serif;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+}
+.icon-container {
+  margin-left: 20px;
+}
+.icon-title {
+  font-family: "Quicksand", serif;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+.icon-container {
+  margin-bottom: 125px;
+  margin-top: 50px;
+}
+.left-side {
+  margin-top: 50px;
+}
+.menu {
+  margin-top: 50px;
+}
+
+/* merque style */
+.m-style {
+  margin-top: 80px;
+  font-family: "Quicksand", serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #01acfd;
+}
+/* rponsive styles */
 
 @media screen and (max-width: 576px) {
   .brand-name,
@@ -409,5 +499,42 @@ h1 {
   }
   .our-section {
     height: 550px;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-section {
+    width: 392px;
+    height: 942px;
+  }
+  .menu {
+    margin-left: -250px;
+    margin-top: -10px;
+  }
+  .icon-container {
+    margin-left: -150px;
+    margin-top: 30px;
+  }
+  .footer-description {
+    font-size: 16px;
+    width: 330px;
+    margin-left: -22px;
+    margin-top: 20px;
+  }
+  .left-side-content {
+    margin-left: -36px;
+  }
+  .menu-item {
+    font-size: 20px;
+  }
+  .menu-list {
+    font-size: 16px;
+  }
+  .icon-title {
+    font-size: 22px;
+  }
+  .m-style {
+    display: none;
   }
 }
