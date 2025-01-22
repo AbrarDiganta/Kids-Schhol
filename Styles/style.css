@@ -469,8 +469,8 @@
     display: none;
   }
   .our-item-1 {
-    height: 179px;
-    width: 173px;
+    height: 159px;
+    width: 153px;
   }
   .our-tag-2 {
     width: 103px;
@@ -508,21 +508,21 @@
     height: 742px;
   }
   .menu {
-    margin-left: -250px;
+    margin-left: -230px;
     margin-top: -10px;
   }
   .icon-container {
-    margin-left: -150px;
+    margin-left: -125px;
     margin-top: 30px;
   }
   .footer-description {
     font-size: 16px;
     width: 330px;
-    margin-left: -22px;
+    margin-left: 5px;
     margin-top: 20px;
   }
   .left-side-content {
-    margin-left: -36px;
+    margin-left: -13px;
   }
   .menu-item {
     font-size: 20px;
