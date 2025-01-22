@@ -1,4 +1,4 @@
-h1 {
+#f2e8ffh1 {
   font-family: "Quicksand", serif;
 }
 
@@ -505,8 +505,7 @@ h1 {
     gap: 10px;
   }
   .footer-section {
-    width: 392px;
-    height: 942px;
+    height: 742px;
   }
   .menu {
     margin-left: -250px;
